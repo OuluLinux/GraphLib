@@ -1,0 +1,13 @@
+description "Example\377";
+
+uses
+	CtrlLib,
+	GraphLib;
+
+file
+	main.cpp,
+	GraphLib3.h;
+
+mainconfig
+	"" = "GUI";
+

@@ -1,0 +1,14 @@
+description "Dijkstra\377";
+
+uses
+	CtrlLib,
+	GraphLib;
+
+file
+	main.cpp,
+	GraphLib4.h;
+
+mainconfig
+	"" = "GUI",
+	"" = "GUI NOGTK";
+

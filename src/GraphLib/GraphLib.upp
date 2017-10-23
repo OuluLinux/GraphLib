@@ -1,0 +1,33 @@
+description "GraphLib is a set of tools to display and layout interactive graphs, along with various related algorithms.\377B0,0,255";
+
+uses
+	CtrlLib,
+	plugin/z;
+
+file
+	Copying,
+	GraphLib.h,
+	Graph.h,
+	Graph.cpp,
+	Renderer.h,
+	Renderer.cpp,
+	Layout readonly separator,
+	Layout.h,
+	Layout.cpp,
+	OrderedTree.h,
+	OrderedTree.cpp,
+	Spring.h,
+	Spring.cpp,
+	TournamentTree.h,
+	TournamentTree.cpp,
+	Algorithm readonly separator,
+	Dijkstra.h,
+	Dijkstra.cpp,
+	TopologicalSort.h,
+	TopologicalSort.cpp,
+	BinaryHeapMap.h,
+	BinaryHeapMap.cpp;
+
+mainconfig
+	"" = "GUI";
+
